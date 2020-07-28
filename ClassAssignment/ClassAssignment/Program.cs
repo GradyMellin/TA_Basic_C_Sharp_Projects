@@ -29,21 +29,27 @@ namespace ClassAssignment
             //string strIn = Console.ReadLine();
             //Console.WriteLine(strIn + " * 10 = " + number.TimesFive(strIn));
 
-            InputNumbers numbers = new InputNumbers();
-            Console.WriteLine("Enter a number for the base of an exponential expression: ");
-            int baseNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter a number for the power of an exponential expression(if left blank your base will be squared): ");
-            string powerStr = Console.ReadLine();
-            if (!string.IsNullOrEmpty(powerStr))
-            {
-                int powerNum = Convert.ToInt32(powerStr);
-                Console.WriteLine(baseNum + " to the power of " + powerNum + " is " + numbers.Exponentals(baseNum, powerNum));
-            }
-            else
-            {
-                Console.WriteLine(baseNum + " to the power of 2 is " + numbers.Exponentals(baseNum));
-            }
-            
+            //InputNumbers numbers = new InputNumbers();
+            //Console.WriteLine("Enter a number for the base of an exponential expression: ");
+            //int baseNum = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter a number for the power of an exponential expression(if left blank your base will be squared): ");
+            //string powerStr = Console.ReadLine();
+            //if (!string.IsNullOrEmpty(powerStr))
+            //{
+            //    int powerNum = Convert.ToInt32(powerStr);
+            //    Console.WriteLine(baseNum + " to the power of " + powerNum + " is " + numbers.Exponentals(baseNum, powerNum));
+            //}
+            //else
+            //{
+            //    Console.WriteLine(baseNum + " to the power of 2 is " + numbers.Exponentals(baseNum));
+            //}
+
+            InputNumber4 numbers = new InputNumber4();
+            Console.WriteLine("Please enter two numbers one after another to see what happens: ");
+            int Num1 = Convert.ToInt32(Console.ReadLine());
+            int Num2 = Convert.ToInt32(Console.ReadLine());
+            numbers.SquareRoot(Num1, Num2);
+
 
             Console.ReadLine();
         }
