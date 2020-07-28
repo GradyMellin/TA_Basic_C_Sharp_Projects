@@ -44,14 +44,27 @@ namespace ClassAssignment
             //    Console.WriteLine(baseNum + " to the power of 2 is " + numbers.Exponentals(baseNum));
             //}
 
-            InputNumber4 numbers = new InputNumber4();
-            Console.WriteLine("Please enter two numbers one after another to see what happens: ");
-            int Num1 = Convert.ToInt32(Console.ReadLine());
-            int Num2 = Convert.ToInt32(Console.ReadLine());
-            numbers.SquareRoot(Num1, Num2);
+            //InputNumber4 numbers = new InputNumber4();
+            //Console.WriteLine("Please enter two numbers one after another to see what happens: ");
+            //int Num1 = Convert.ToInt32(Console.ReadLine());
+            //int Num2 = Convert.ToInt32(Console.ReadLine());
+            //numbers.SquareRoot(Num1, Num2);
 
-
+            InputNumber5 number = new InputNumber5();
+            Console.WriteLine("Please enter a number: ");
+            int intIn = Convert.ToInt32(Console.ReadLine());
+            number.DivideByTwo(intIn, out int quotient);
+            Console.WriteLine(quotient);
+            Console.WriteLine("Please enter a number: ");
+            double intIn2 = Convert.ToDouble(Console.ReadLine());
+            number.DivideByTwo(intIn2, out double quotient2);
+            Console.WriteLine(quotient2);
+            Program.Hi();
             Console.ReadLine();
+        }
+        public static void Hi()
+        {
+            Console.WriteLine("Hi this is my static method.");
         }
     }
 }
