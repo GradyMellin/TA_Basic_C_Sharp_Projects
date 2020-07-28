@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="InputNumber.cs" />
     <Compile Include="InputNumber2.cs" />
+    <Compile Include="InputNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

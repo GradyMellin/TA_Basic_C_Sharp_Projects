@@ -18,16 +18,32 @@ namespace ClassAssignment
             //Console.WriteLine(number.NumIn + " + 5 = " + number.PlusFive());
             //Console.WriteLine(number.NumIn + " / 2 has a remainder of " + number.ModulesTwo());
 
-            InputNumber2 number = new InputNumber2();
-            Console.WriteLine("Please enter an integer number: ");
-            int intIn = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(intIn + " * 10 = " + number.TimesFive(intIn));
-            Console.WriteLine("Please enter a decimal number: ");
-            decimal decIn = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine(decIn + " * 10 = " + number.TimesFive(decIn));
-            Console.WriteLine("Please enter a number as a string: ");
-            string strIn = Console.ReadLine();
-            Console.WriteLine(strIn + " * 10 = " + number.TimesFive(strIn));
+            //InputNumber2 number = new InputNumber2();
+            //Console.WriteLine("Please enter an integer number: ");
+            //int intIn = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(intIn + " * 10 = " + number.TimesFive(intIn));
+            //Console.WriteLine("Please enter a decimal number: ");
+            //decimal decIn = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine(decIn + " * 10 = " + number.TimesFive(decIn));
+            //Console.WriteLine("Please enter a number as a string: ");
+            //string strIn = Console.ReadLine();
+            //Console.WriteLine(strIn + " * 10 = " + number.TimesFive(strIn));
+
+            InputNumbers numbers = new InputNumbers();
+            Console.WriteLine("Enter a number for the base of an exponential expression: ");
+            int baseNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a number for the power of an exponential expression(if left blank your base will be squared): ");
+            string powerStr = Console.ReadLine();
+            if (!string.IsNullOrEmpty(powerStr))
+            {
+                int powerNum = Convert.ToInt32(powerStr);
+                Console.WriteLine(baseNum + " to the power of " + powerNum + " is " + numbers.Exponentals(baseNum, powerNum));
+            }
+            else
+            {
+                Console.WriteLine(baseNum + " to the power of 2 is " + numbers.Exponentals(baseNum));
+            }
+            
 
             Console.ReadLine();
         }
