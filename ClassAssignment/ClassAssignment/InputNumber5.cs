@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassAssignment
 {
-    class InputNumber5
+    public class InputNumber5
     {
         public void DivideByTwo(int numIn, out int numOut)
         {

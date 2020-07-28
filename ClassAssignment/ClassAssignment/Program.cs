@@ -50,16 +50,27 @@ namespace ClassAssignment
             //int Num2 = Convert.ToInt32(Console.ReadLine());
             //numbers.SquareRoot(Num1, Num2);
 
-            InputNumber5 number = new InputNumber5();
-            Console.WriteLine("Please enter a number: ");
-            int intIn = Convert.ToInt32(Console.ReadLine());
-            number.DivideByTwo(intIn, out int quotient);
-            Console.WriteLine(quotient);
-            Console.WriteLine("Please enter a number: ");
-            double intIn2 = Convert.ToDouble(Console.ReadLine());
-            number.DivideByTwo(intIn2, out double quotient2);
-            Console.WriteLine(quotient2);
-            Program.Hi();
+            //InputNumber5 number = new InputNumber5();
+            //Console.WriteLine("Please enter a number: ");
+            //int intIn = Convert.ToInt32(Console.ReadLine());
+            //number.DivideByTwo(intIn, out int quotient);
+            //Console.WriteLine(quotient);
+            //Console.WriteLine("Please enter a number: ");
+            //double intIn2 = Convert.ToDouble(Console.ReadLine());
+            //number.DivideByTwo(intIn2, out double quotient2);
+            //Console.WriteLine(quotient2);
+            //Program.Hi();
+
+            Employee sample = new Employee()
+            {
+                FirstName = "Sample",
+                LastName = "Student"
+            };
+
+            sample.SayName();
+
+
+
             Console.ReadLine();
         }
         public static void Hi()
