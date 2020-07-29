@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassAssignment
 {
-    public class Person
+    public abstract class Person
     {
         public void SayName()
         {
