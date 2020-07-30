@@ -25,21 +25,36 @@ namespace Work
                 Id = 1,
                 isActivelyEmployed = true
             };
-            grady.Things = new List<int>() { 1,2,3 };
-            sample.SayName();
-            sample.Quit();
+            grady.Things = new List<int>() { 1, 2, 3 };
+            //sample.SayName();
+            //sample.Quit();
             //Console.WriteLine(grady == sample);
-            foreach(string thing in sample.Things)
+            //foreach(string thing in sample.Things)
+            //{
+            //    Console.WriteLine(thing);
+            //}
+            //foreach (int thing in grady.Things)
+            //{
+            //    Console.WriteLine(thing);
+            //}
+            //IQuittable sample2 = new Employee<string>();
+            DayOfTheWeek day = new DayOfTheWeek();
+            Console.WriteLine("Please Enter the current day of the week starting with a capital letter: ");
+            try
             {
-                Console.WriteLine(thing);
+                string day1 = Console.ReadLine();
+                day.Day = (Days)Enum.Parse(typeof(Days), day1);
+                Console.WriteLine("Today is a " + day.Day);
             }
-            foreach (int thing in grady.Things)
+            catch (Exception ex)
             {
-                Console.WriteLine(thing);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Please enter an actual day of the week.");
             }
-            IQuittable sample2 = new Employee<string>();
-
+            
             Console.ReadLine();
+
         }
+       
     }
 }
