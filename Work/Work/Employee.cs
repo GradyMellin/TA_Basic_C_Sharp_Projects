@@ -8,17 +8,18 @@ using System.Threading.Tasks;
 
 namespace Work
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person, IQuittable
     {
         public int Id { get; set; }
         public bool isActivelyEmployed { get; set; }
-        
-        public static bool operator ==(Employee employee1, Employee employee2)
+        public List<T> Things { get; set; }
+
+        public static bool operator ==(Employee<T> employee1, Employee<T> employee2)
         {
             bool compare = employee1.Id == employee2.Id;
             return compare;
         }
-        public static bool operator !=(Employee employee1, Employee employee2)
+        public static bool operator !=(Employee<T> employee1, Employee<T> employee2)
         {
             bool compare = employee1.Id == employee2.Id;
             return compare;
