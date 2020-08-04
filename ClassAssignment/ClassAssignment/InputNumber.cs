@@ -8,24 +8,19 @@ namespace ClassAssignment
 {
     public class InputNumber
     {
-        public int TimesTen()
+        public int TimesTen(int numIn)
         {
-            int product = this.NumIn * 10;
-            return product;
+            return numIn * 10;
         }
 
-        public int PlusFive()
+        public int PlusFive(int numIn)
         {
-            int sum = this.NumIn + 5;
-            return sum;
+            return numIn + 5;
         }
 
-        public int ModulesTwo()
+        public int ModulesTwo(int numIn)
         {
-            int remainder = this.NumIn % 2;
-            return remainder;
+            return numIn % 2;
         }
-
-        public int NumIn { get; set; }
     }
 }
