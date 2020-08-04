@@ -10,6 +10,7 @@ namespace ClassAssignment
     {
         static void Main(string[] args)
         {
+            //////drill 161 using InputNumber.cs
             //InputNumber number = new InputNumber();
             //Console.WriteLine("Please enter a number: ");
             //int NumIn = Convert.ToInt32(Console.ReadLine());
@@ -18,6 +19,7 @@ namespace ClassAssignment
             //Console.WriteLine(NumIn + " + 5 = " + number.PlusFive(NumIn));
             //Console.WriteLine(NumIn + " / 2 has a remainder of " + number.ModulesTwo(NumIn));
 
+            //////drill 164 using InputNumber2.cs
             //InputNumber2 number = new InputNumber2();
             //Console.WriteLine("Please enter an integer number: ");
             //int intIn = Convert.ToInt32(Console.ReadLine());
@@ -29,6 +31,7 @@ namespace ClassAssignment
             //string strIn = Console.ReadLine();
             //Console.WriteLine(strIn + " * 10 = " + number.TimesFive(strIn));
 
+            //////drill 165 using InputNumbers.cs
             //InputNumbers numbers = new InputNumbers();
             //Console.WriteLine("Enter a number for the base of an exponential expression: ");
             //int baseNum = Convert.ToInt32(Console.ReadLine());
@@ -44,12 +47,14 @@ namespace ClassAssignment
             //    Console.WriteLine(baseNum + " to the power of 2 is " + numbers.Exponentals(baseNum));
             //}
 
+            //////drill 169 using InputNumber4.cs
             //InputNumber4 numbers = new InputNumber4();
             //Console.WriteLine("Please enter two numbers one after another to see what happens: ");
             //int Num1 = Convert.ToInt32(Console.ReadLine());
             //int Num2 = Convert.ToInt32(Console.ReadLine());
             //numbers.SquareRoot(num1: Num1, num2: Num2);
 
+            //////drill 174 using InputNumber5.cs
             //InputNumber5 number = new InputNumber5();
             //Console.WriteLine("Please enter a number: ");
             //int intIn = Convert.ToInt32(Console.ReadLine());
@@ -61,6 +66,7 @@ namespace ClassAssignment
             //Console.WriteLine(quotient2);
             //Program.Hi();
 
+            //////drill 179 using Employee.cs and Person.cs
             Employee sample = new Employee()
             {
                 FirstName = "Sample",
