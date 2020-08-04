@@ -14,7 +14,7 @@ namespace datetime
             Console.WriteLine(DateTime.Now);
             Console.WriteLine("Please enter a number");
             int number = Convert.ToInt32(Console.ReadLine());
-            TimeSpan xHours = now + TimeSpan.FromHours(number);
+            DateTime xHours = now.AddHours(number);
             Console.WriteLine("In " + number + " hours it will be " + xHours);
             Console.ReadLine();
         }
