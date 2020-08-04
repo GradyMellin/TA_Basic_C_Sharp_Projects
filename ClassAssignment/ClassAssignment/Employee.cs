@@ -8,6 +8,10 @@ namespace ClassAssignment
 {
     public class Employee : Person
     {
+        public void SayName()
+        {
+            Console.WriteLine("Employee Name: [" + FirstName + " " + LastName + "]");
+        }
         public int Id { get; set; }
     }
 }

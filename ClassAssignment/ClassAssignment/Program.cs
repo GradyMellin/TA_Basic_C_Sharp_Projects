@@ -44,11 +44,11 @@ namespace ClassAssignment
             //    Console.WriteLine(baseNum + " to the power of 2 is " + numbers.Exponentals(baseNum));
             //}
 
-            InputNumber4 numbers = new InputNumber4();
-            Console.WriteLine("Please enter two numbers one after another to see what happens: ");
-            int Num1 = Convert.ToInt32(Console.ReadLine());
-            int Num2 = Convert.ToInt32(Console.ReadLine());
-            numbers.SquareRoot(num1: Num1, num2: Num2);
+            //InputNumber4 numbers = new InputNumber4();
+            //Console.WriteLine("Please enter two numbers one after another to see what happens: ");
+            //int Num1 = Convert.ToInt32(Console.ReadLine());
+            //int Num2 = Convert.ToInt32(Console.ReadLine());
+            //numbers.SquareRoot(num1: Num1, num2: Num2);
 
             //InputNumber5 number = new InputNumber5();
             //Console.WriteLine("Please enter a number: ");
@@ -61,13 +61,13 @@ namespace ClassAssignment
             //Console.WriteLine(quotient2);
             //Program.Hi();
 
-            //Employee sample = new Employee()
-            //{
-            //    FirstName = "Sample",
-            //    LastName = "Student"
-            //};
+            Employee sample = new Employee()
+            {
+                FirstName = "Sample",
+                LastName = "Student"
+            };
 
-            //sample.SayName();
+            sample.SayName();
 
 
 
