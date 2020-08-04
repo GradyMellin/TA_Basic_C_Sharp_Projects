@@ -17,7 +17,8 @@ namespace Logging
             {
                 file.WriteLine(number);
             }
-            Console.WriteLine(number);
+            string text = File.ReadAllText(@"C:\Users\Grady Mellin\Desktop\C#_course\TA_Basic_C#_Projects\log.txt");
+            Console.WriteLine(text);
             Console.ReadLine();
         }
     }
