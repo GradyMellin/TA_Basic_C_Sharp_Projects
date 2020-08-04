@@ -10,13 +10,13 @@ namespace ClassAssignment
     {
         static void Main(string[] args)
         {
-            InputNumber number = new InputNumber();
-            Console.WriteLine("Please enter a number: ");
-            int NumIn = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("You have entered " + NumIn);
-            Console.WriteLine(NumIn + " * 10 = " + number.TimesTen(NumIn));
-            Console.WriteLine(NumIn + " + 5 = " + number.PlusFive(NumIn));
-            Console.WriteLine(NumIn + " / 2 has a remainder of " + number.ModulesTwo(NumIn));
+            //InputNumber number = new InputNumber();
+            //Console.WriteLine("Please enter a number: ");
+            //int NumIn = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("You have entered " + NumIn);
+            //Console.WriteLine(NumIn + " * 10 = " + number.TimesTen(NumIn));
+            //Console.WriteLine(NumIn + " + 5 = " + number.PlusFive(NumIn));
+            //Console.WriteLine(NumIn + " / 2 has a remainder of " + number.ModulesTwo(NumIn));
 
             //InputNumber2 number = new InputNumber2();
             //Console.WriteLine("Please enter an integer number: ");
@@ -44,11 +44,11 @@ namespace ClassAssignment
             //    Console.WriteLine(baseNum + " to the power of 2 is " + numbers.Exponentals(baseNum));
             //}
 
-            //InputNumber4 numbers = new InputNumber4();
-            //Console.WriteLine("Please enter two numbers one after another to see what happens: ");
-            //int Num1 = Convert.ToInt32(Console.ReadLine());
-            //int Num2 = Convert.ToInt32(Console.ReadLine());
-            //numbers.SquareRoot(Num1, Num2);
+            InputNumber4 numbers = new InputNumber4();
+            Console.WriteLine("Please enter two numbers one after another to see what happens: ");
+            int Num1 = Convert.ToInt32(Console.ReadLine());
+            int Num2 = Convert.ToInt32(Console.ReadLine());
+            numbers.SquareRoot(num1: Num1, num2: Num2);
 
             //InputNumber5 number = new InputNumber5();
             //Console.WriteLine("Please enter a number: ");
