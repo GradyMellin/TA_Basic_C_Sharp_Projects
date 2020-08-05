@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drill234_ExceptionHandling", "Drill234_ExceptionHandling\Drill234_ExceptionHandling.csproj", "{4BA17660-ED82-4640-BD40-ECA66245CEC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA17660-ED82-4640-BD40-ECA66245CEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA17660-ED82-4640-BD40-ECA66245CEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA17660-ED82-4640-BD40-ECA66245CEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA17660-ED82-4640-BD40-ECA66245CEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49A1E1C1-FD15-497D-8E76-7BFBEC3F5D2C}
+	EndGlobalSection
+EndGlobal
