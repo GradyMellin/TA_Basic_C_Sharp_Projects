@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drill230_var_const_chain", "Drill230_var_const_chain\Drill230_var_const_chain.csproj", "{80E7B203-5DC0-434D-9C2D-7CB39FCF8EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80E7B203-5DC0-434D-9C2D-7CB39FCF8EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E7B203-5DC0-434D-9C2D-7CB39FCF8EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E7B203-5DC0-434D-9C2D-7CB39FCF8EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E7B203-5DC0-434D-9C2D-7CB39FCF8EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {990E976F-6E6D-450F-9E35-B3241B31D899}
+	EndGlobalSection
+EndGlobal
